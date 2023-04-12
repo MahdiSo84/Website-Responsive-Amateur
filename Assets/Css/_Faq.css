@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* todo:: Start Topic & Course Section Style */
+.faq-section-wrraper-custom {
+    background-position: center;
+    background-image: url("../Img/Pic/Faq.jpg");
+    min-height: 600px;
+}
+.faq-section-wrraper-custom .faq-right-side{
+    padding: 30px;
+    box-shadow: 1px 3px 7px 2px #cfcfcf;
+    background-color: #fffcfce3;
+    border-radius: 4px;
+    height: 412px;
+    margin-top: 88px;
+}
+.faq-section-wrraper-custom .faq-right-side ul,li{
+    display: block;
+}
+.faq-section-wrraper-custom .faq-right-side h6{
+    font-size: 23px;
+    color: rgb(19, 17, 17);
+}
+.faq-section-wrraper-custom .faq-right-side i{
+    color: rgb(1, 68, 62);
+    font-size: 27px;
+    vertical-align: -5px;
+    padding-left: 7px;
+}
+.faq-section-wrraper-custom .faq-right-side p{
+    color: rgb(27, 24, 24);
+    font-size: 21px;
+    margin: 1px 15px;
+    padding: 0 10px;
+}
+.faq-section-wrraper-custom .faq-right-side .End-Course-faq{
+    padding-top: 9px;
+}
+.faq-section-wrraper-custom .faq-left-side .tabs{
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: rgb(1, 68, 62);
+    box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05)!important;
+    margin-top: 2px;
+    font-size: 21px;
+    padding: 32px;
+}
+.faq-section-wrraper-custom .faq-left-side .tab {
+    overflow: hidden;
+    color: white;
+}
+.faq-section-wrraper-custom .faq-left-side .tab-label{
+    width: 100%;
+    cursor: pointer;
+    padding-right: 8px;
+    vertical-align: 2px;
+}
+.faq-section-wrraper-custom .faq-left-side .tab-label::after{
+    content: '\276f';
+    padding-right: 8px;
+    vertical-align: -3px;
+    font-weight: bold;
+    float: left;
+    transition: all 1s;
+}
+.faq-section-wrraper-custom .faq-left-side .tab .tab-content{
+    max-height: 0;
+    background-color: rgb(1, 68, 62);
+    transition: all 0.5s;
+}
+.faq-section-wrraper-custom .faq-left-side input:checked ~ .tab-content{
+    max-height: 200px;
+    padding: 10px;
+    transition: all 1s;
+}
+.faq-section-wrraper-custom .faq-left-side input:checked + .tab-label::after{
+    transform: rotate(-90deg);
+    transition: all 0.5s;
+}
+.faq-section-wrraper-custom .faq-left-side input{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .faq-section-wrraper-custom .faq-right-side{
+        height: 343px!important;
+    }
+}
+@media screen and (max-width:1167px) {
+   .End-Course-faq{
+    display: none;
+   } 
+}
+/* todo: End Topic & Course Section Style */

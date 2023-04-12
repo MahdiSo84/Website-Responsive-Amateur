@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/** Start Stat Section Style */
+.Stat-wrraper-custom{
+    min-height: 245px;
+    border-radius: 3px;
+}
+.Stat-wrraper-custom img{
+    height: 60px;
+    margin-top: 20px;
+}
+.Stat-wrraper-custom div,p{
+    font-size: 22px;
+    margin-top: 12px;
+    color: white;
+}
+/** End Stat Section Style */

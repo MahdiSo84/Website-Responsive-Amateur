@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/** Start Topic & Course Section Style */
+.Topic-course-wrraper-custom{
+    background-image: url("../Img/Pic/Topic-About-Cours\'s.png");    background-position: center;
+    background-repeat: no-repeat;
+    margin: 35px 12px;
+    border-radius: 5px;
+}
+.section-wrraper-Topic .card{
+    height: 390px;
+    box-shadow: 1px 5px 11px 6px #EFEFF1!important;
+}
+.section-wrraper-Topic img{
+    transition: all 0.5s;
+}
+.section-wrraper-Topic :hover img{
+    transition: all 0.5s;
+    transform: scale(1.2) rotate(-20deg);
+}
+.section-wrraper-Topic .card-header{
+    overflow: hidden;
+}
+.section-wrraper-Topic .card-header img {
+    width: -webkit-fill-available;
+    padding-right: 0;
+}
+.section-wrraper-Topic .card-body p{
+    font-size: 21px;
+    color: rgb(46, 0, 0);
+    margin-top: 16px;
+}
+.section-wrraper-Topic .card-body a{
+    margin: 94px;
+    padding-top: 10px;
+    font-size: 21px;
+}
+.section-wrraper-Topic .card-body .post-date{
+    font-size: 18px;
+    bottom: 79px;
+    right: 5px;
+    color: white;
+}
+.section-wrraper-Topic .card-body .post-date div:first-child{
+    width: 55px;
+    background-color: rgb(1, 68, 62);
+    border-radius: 3px 3px 0 0;
+}
+.section-wrraper-Topic .card-body .post-date div:last-child{
+    width: 55px;
+    background-color: rgb(73, 95, 93);
+    border-radius: 0 0 3px 3px;
+}
+.section-wrraper-Topic .card-footer ul li{
+    padding: 5px 28px 0px 0;
+    font-size: 17px;
+    display: inline-block;
+}
+.section-wrraper-Topic .card-footer i{
+    color: rgb(1, 68, 62);
+    vertical-align: -3px;
+    font-size: 18px;
+}
+@media only screen and (max-width: 767px){
+    .custom-topic-online{
+        margin-right: 20%;
+    }
+}
+/** End Topic & Course Section Style */

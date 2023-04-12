@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* * Start Import Style Section */
+@import url("_Cantact.css");
+@import url("_Navbar.css");
+@import url("_Header.css");
+@import url("_Course.css");
+@import url("_Aboutus.css");
+@import url("_Lecturers.css");
+@import url("_Stat.css");
+@import url("_Topic-Course.css");
+@import url("_Faq.css");
+@import url("_Footer.css");
+/* * End Import Style Section */

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* *? Start Is The Tag Coding Navbar Contact  */
+@media screen and (max-width:992px) and (min-width:670px) {
+    .social-media{
+        display: none;
+    }
+}
+ .container-fluid-custom{
+    background-color: rgb(1, 68, 62);
+    color: white;
+    height: 40px;
+}
+.container-fluid-custom .contact{
+    font-size: 16px;
+}
+.container-fluid-custom .contact i{
+    color: rgb(209, 206, 4);
+    vertical-align: -9px;
+    margin-right: 10px;
+}
+.container-fluid-custom .contact span{
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 21px;
+    vertical-align: 3px;
+    padding: 8px;
+}
+.container-fluid-custom .social-media{
+    direction: ltr;
+}
+.container-fluid-custom .social-media i{
+    padding: 9px;
+    vertical-align: -7px;
+    color: white;
+}.container-fluid-custom .social-media i:hover{
+    background-color: darkorange;
+    padding: 8px;
+    width: 46px;
+    border-radius: 2px;
+    text-align: center;
+    transition: all 0.90s;
+}.container-fluid-custom .social-media i.telegram:hover{
+    background-color: blue;
+}.container-fluid-custom .social-media i.instagram:hover{
+    background-color: darkred;
+}.container-fluid-custom .social-media i.twitter:hover{
+    background-color: darkturquoise;
+}.container-fluid-custom .social-media i.facebook:hover{
+    background-color: darkblue;
+}
+ /* *? End Is The Tag Coding Navbar Contact  */  

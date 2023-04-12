@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*! Start Course Section Style */
+    .section-title span{
+        font-size: 26px;
+        position: relative;
+    }
+    .section-title span::before{
+        content: "";
+        background-color: rgb(1, 68, 62);
+        width: 66px;
+        height: 6px;
+        position: absolute;
+        top: 21px;
+        right: -70px;
+        border-radius: 6px;
+    }
+    .section-title span::after{
+        content: "";
+        background-color: rgb(1, 68, 62);
+        width: 66px;
+        height: 6px;
+        position: absolute;
+        top: 21px;
+        left: -70px;
+        border-radius: 6px;
+    }
+    .card{
+        width: 284px;
+        height: 342px;
+        box-shadow: 1px 3px 7px 3px #9d9c9c;
+        margin-top: 20px;
+        border-radius: 9px;
+    }
+    .card-header img{
+        width: 256px;
+        height: 244px;
+        padding-right: 25px;
+    }
+    .card-body .i-course-custom{
+        width: 30px;
+        height: 29px;
+    } 
+    .card-body a{
+        font-size: 20px;
+        padding-right: 7px;
+        vertical-align: 8px;
+        color: rgb(1, 68, 62);
+    }
+    .card-body p{
+        font-size: 21px;
+        text-align: center;
+        color: rgb(46, 0, 0);
+    }
+    .card-header .card-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(221, 217, 217, 0.397);
+        border-radius: 1px;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: 0.4s ease-in;
+    }
+    .card .text-overlay-card{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: rgb(1, 44, 41);
+        font-size: 18px;
+    }
+    .card:hover .card-overlay{
+        opacity: 1;
+    }
+    .f_image:first-child{
+        filter: blur(1);
+    }
+    section .section_course_custom{
+    margin: 1pc 4pc 0 0;
+    }
+/*! End Course Section Style */

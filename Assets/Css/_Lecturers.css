@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*? Start Lecturers Section Style */
+.Lecturers-costum{
+    background: url("/Assets/Img/Pic/Eb-About-Lecturers.jpg");
+    margin-top: 35px;
+}
+.Lecturers-costum img{
+    width: 740px;
+    height: 580px;
+}
+.lecturers-about-title{
+    box-shadow: 2px 2px 10px 0px rgb(1, 68, 62);
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    word-spacing: 2px;
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    padding: 20px 0;
+}
+.lecturers-about-title span{
+    border-radius: 5px;
+    padding: 0 5px;
+    color: white;
+}
+.lecturers-about-title h4{
+    margin: 2px 0 100px 0;
+}
+.Lecturers-costum a{
+    display: inline-block;
+    border: 1px solid rgb(1, 68, 62);
+    color: rgb(15, 14, 14);
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    border-radius: 3px;
+    width: 140px;
+    height: 46px;
+    transition: 0.4s ease-in;
+}
+.Lecturers-costum a:hover{
+    border-radius: 2px 8px 2px 8px;
+    color: white;
+    background-color: rgb(1, 68, 62);
+}
+@media screen and (max-width:765px) {
+    .Lecturers-display-overly{
+        display: none;
+    }
+}
+/*? End Lecturers Section Style */
